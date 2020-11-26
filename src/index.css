@@ -1,0 +1,133 @@
+body{
+    background-color: #f8f8f8;
+}
+
+.main{
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+}
+
+.main:before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 460px;
+    position: absolute;
+}
+
+
+.main h1{
+    position: relative;
+    padding-top: 2em;
+    margin-bottom: 25px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+label{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.secondary{
+    position: relative;
+}
+
+.button{
+    padding: .6em;
+    border: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    outline: none !important;
+    background-color: rgb(233, 37, 37);
+    color: #FFF;
+    width: 120px;
+    margin-top: .5em;
+    float: right;
+    transition: background .3s ease-in;
+}
+
+.button:hover{
+    background-color: rgb(187, 8, 8);
+}
+
+.card-body i{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.fa-facebook{
+    color:  #3b5998;
+    margin-right: 3rem;
+}
+
+.fa-twitter{
+    color:  #00acee;
+    margin-right: 1em;
+}
+
+.fa-globe{
+    color:  #f13a3a;
+}
+
+hr{
+    border: 2px solid rgb(233, 37, 37);
+}
+
+.lyrics{
+    white-space: pre-wrap;
+}
+
+.redes{
+    justify-content: center;
+    display: flex;
+}
+
+.card-footer{
+    background-color: #f8f8f8;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+footer p{
+    font-family: 'Architects Daughter', cursive;
+}
+
+@media(max-width: 768px){
+    .main{
+        height: 550px;
+    }
+    
+    .main:before{
+        height: 550px;
+    }
+
+    .main h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 468px){
+    .main h1{
+        font-size: 2.2rem;
+    }
+}
+
+@media(max-width: 424px){
+
+    .main:before{
+        height: 510px;
+    }
+
+    .main h1{
+        margin-top: -40px;
+    }
+
+}
