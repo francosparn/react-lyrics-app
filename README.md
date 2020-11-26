@@ -1,3 +1,11 @@
+# Preview
+
+Song search application developed with React. It consumes two APIs, one of them called **lyrics.ovh** that provides the lyrics of the song and another called **TheAudioDB** which returns data on the searched band, such as its name, date of foundation, social networks and musical genre. Other technologies used in the project: HTML, CSS and Bootstrap 5.
+
+![](https://i.imgur.com/XiUjxmf.png)
+
+![](https://i.imgur.com/8gYABXL.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
